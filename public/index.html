@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro User Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- SIDEBAR -->
+        <div class="sidebar">
+            <h2>🚀 Dashboard</h2>
+
+            <div class="menu">
+                <p>👤 User Management</p>
+                <p>📊 Analytics</p>
+                <p>⚙ Settings</p>
+            </div>
+        </div>
+
+        <!-- MAIN CONTENT -->
+        <div class="main">
+
+            <!-- TOPBAR -->
+            <div class="topbar">
+                <h1>User Management System</h1>
+            </div>
+
+            <div class="content">
+
+                <!-- FORM SECTION -->
+                <div class="formCard">
+                    <h2>Add New User</h2>
+
+                    <form id="userForm">
+                        <input type="text" id="name" placeholder="Enter Name" required>
+                        <input type="email" id="email" placeholder="Enter Email" required>
+
+                        <button type="submit">Add User</button>
+                    </form>
+                </div>
+
+                <!-- USER LIST -->
+                <div class="listCard">
+                    <h2>Users List</h2>
+
+                    <div id="userList"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+

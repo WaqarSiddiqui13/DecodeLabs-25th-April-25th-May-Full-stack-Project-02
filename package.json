@@ -1,0 +1,16 @@
+{
+	"name": "decode-labs-project-2",
+	"version": "1.0.0",
+	"description": "Small Express + static frontend demo",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"keywords": [],
+	"dependencies": {
+		"express": "^5.2.1"
+	}
+}
